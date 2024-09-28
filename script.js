@@ -65,7 +65,7 @@ msgValidate = () => {
 }
 
 submitValidate = () => {
-    if (!nameValidate() || !numberValidate() || emailValidate() || msgValidate()) {
+    if (!nameValidate() || !numberValidate() || !emailValidate() || !msgValidate()) {
         submitMsg.style.display = 'block';
         submitMsg.innerHTML = 'Enter All Details'
         setTimeout(() => {
